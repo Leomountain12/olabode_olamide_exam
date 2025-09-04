@@ -39,41 +39,39 @@ else:
     print("entwer number from 1_4")
 
 
-#question 2
+question 2
 
 
-# while True:
-#     user_input = input("Enter a number (or type 'exit' to quit): ")
-#     if user_input == "exit":
-#         print("Goodbye!")
-#         break        # break out of loop
+while True:
+    user_input = input("Enter a number (or type 'exit' to quit): ")
+    if user_input == "exit":
+        print("Goodbye!")
+        break        # break out of loop
     
-#     num = int(input("user_input:") )  # convert to integer
+    num = int(input("user_input:") )  # convert to integer
     
-#     if num % 2 == 0:
-#         print("The number is even")
-#     else:
-#         print("The number is odd")
+    if num % 2 == 0:
+        print("The number is even")
+    else:
+        print("The number is odd")
 
 
 
 
-# #question 3    
-# while True:
-#     age = int(input("Enter your age (or type exit to quit): "))
-#     if age == "exit":
-#         print("Goodbye!")
-#         break
+#question 3    
+while True:
+    age = int(input("Enter your age (or type exit to quit): "))
+    if age == "exit":
+        print("Goodbye!")
+        break
     
-#     try:
-#         if age >= "age":
-#             print("You can vote")
-#         else:
-#             print("You cannot vote")
-#     except:
-#         print("Invalid input")    
-
-
+    try:
+        if age >= "age":
+            print("You can vote")
+        else:
+            print("You cannot vote")
+    except:
+        print("Invalid input")    
 
 
 
