@@ -16,12 +16,12 @@ def division(a,b):
         print("error dividing number by zero")
 
 while True:
-    calculation = int(input("kindly choose an option\n1.addition\n2.subtraction\n3.mupltiplication\n4.division"))
+    calculation = int(input("kindly choose an option\n1.addition\n2.subtraction\n3.mupltiplication\n4.division\n5exit"))
     if calculation == 1 :
         num1=int(input("enter first number"))
         num2= int(input("enter second number")) 
         print("answer:",addition(num1,num2)) 
-        question =input("will you like exit") 
+        
 
     elif calculation == 2 :
         num1=int(input("enter first number"))
@@ -34,12 +34,16 @@ while True:
     elif calculation==4 :
         num1=int(input("enter first number"))
         num2= int(input("enter second number")) 
-        print("answer:",division(num1,num2))          
-else:
-    print("entwer number from 1_4")
+        print("answer:",division(num1,num2))  
+    elif calculation == 5 :
+        print("existing calculator") 
+        break           
+    else:
+        print("entwer number from 1_4")
+    
 
 
-question 2
+# question 2
 
 
 while True:
@@ -60,13 +64,13 @@ while True:
 
 #question 3    
 while True:
-    age = int(input("Enter your age (or type exit to quit): "))
+    age = input("Enter your age (or type exit to quit): ")
     if age == "exit":
         print("Goodbye!")
         break
     
     try:
-        if age >= "age":
+        if int(age) >= 18:
             print("You can vote")
         else:
             print("You cannot vote")
